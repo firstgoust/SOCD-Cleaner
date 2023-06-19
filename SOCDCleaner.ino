@@ -42,7 +42,7 @@ void loop() {
     }
     else //Right+Left = Neutral
     {
-      digitalWrite(rightOUT, HIGH);
+      digitalWrite(rightOUT, LOW);
       digitalWrite(leftOUT, HIGH);
     }
   }
